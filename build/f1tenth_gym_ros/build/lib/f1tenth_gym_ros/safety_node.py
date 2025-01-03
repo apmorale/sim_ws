@@ -51,7 +51,7 @@ class SafetyNode (Node):
     
     def odom_callback(self, msg: Odometry):
         self.velocity = msg.twist.twist.linear.x
-        self.get_logger().info(f"Vehicle velocity: {self.velocity}")
+        #self.get_logger().info(f"Vehicle velocity: {self.velocity}")
 
     def calculate_ttc(self, distance):
         if self.velocity > 0:
