@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ana/sim_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages",
+        "/home/ana/lab1_ws/install/lab1_pkg_python/lib/python3.10/site-packages",
+        "/home/ana/ros2_ws/build/my_robot_controller",
+        "/home/ana/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ana/sim_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages",
+        "/home/ana/lab1_ws/install/lab1_pkg_python/lib/python3.10/site-packages",
+        "/home/ana/ros2_ws/build/my_robot_controller",
+        "/home/ana/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
