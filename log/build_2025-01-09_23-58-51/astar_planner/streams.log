@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/ana/sim_ws/build/astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ana/sim_ws/install/f1tenth_gym_ros:/home/ana/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ana/sim_ws/build/astar_planner -- -j4 -l4
+[0.308s] Invoked command in '/home/ana/sim_ws/build/astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ana/sim_ws/install/f1tenth_gym_ros:/home/ana/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ana/sim_ws/build/astar_planner -- -j4 -l4
+[0.317s] Invoking command in '/home/ana/sim_ws/build/astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ana/sim_ws/install/f1tenth_gym_ros:/home/ana/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ana/sim_ws/build/astar_planner
+[0.327s] -- Install configuration: ""
+[0.327s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/lib/astar_planner/astar_planner_node.py
+[0.327s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/package_run_dependencies/astar_planner
+[0.327s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/parent_prefix_path/astar_planner
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/path.sh
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/path.dsv
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.bash
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.sh
+[0.328s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.zsh
+[0.329s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.dsv
+[0.329s] -- Installing: /home/ana/sim_ws/install/astar_planner/share/astar_planner/package.dsv
+[0.329s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/packages/astar_planner
+[0.329s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/cmake/astar_plannerConfig.cmake
+[0.329s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/cmake/astar_plannerConfig-version.cmake
+[0.329s] -- Up-to-date: /home/ana/sim_ws/install/astar_planner/share/astar_planner/package.xml
+[0.331s] Invoked command in '/home/ana/sim_ws/build/astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ana/sim_ws/install/f1tenth_gym_ros:/home/ana/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/ana/sim_ws/build/astar_planner

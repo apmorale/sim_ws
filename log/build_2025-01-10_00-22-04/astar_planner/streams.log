@@ -1,0 +1,34 @@
+[0.985s] Invoking command in '/home/ana/sim_ws/src/astar_planner': PYTHONPATH=/home/ana/sim_ws/build/astar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/astar_planner build --build-base /home/ana/sim_ws/build/astar_planner/build install --record /home/ana/sim_ws/build/astar_planner/install.log --single-version-externally-managed install_data
+[1.265s] running egg_info
+[1.266s] creating ../../build/astar_planner/astar_planner.egg-info
+[1.266s] writing ../../build/astar_planner/astar_planner.egg-info/PKG-INFO
+[1.267s] writing dependency_links to ../../build/astar_planner/astar_planner.egg-info/dependency_links.txt
+[1.267s] writing entry points to ../../build/astar_planner/astar_planner.egg-info/entry_points.txt
+[1.267s] writing requirements to ../../build/astar_planner/astar_planner.egg-info/requires.txt
+[1.267s] writing top-level names to ../../build/astar_planner/astar_planner.egg-info/top_level.txt
+[1.267s] writing manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+[1.270s] reading manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+[1.273s] running build
+[1.273s] running build_py
+[1.273s] creating /home/ana/sim_ws/build/astar_planner/build
+[1.273s] creating /home/ana/sim_ws/build/astar_planner/build/lib
+[1.273s] creating /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+[1.273s] copying astar_planner/astar_planner_node.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+[1.273s] copying astar_planner/__init__.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+[1.273s] running install
+[1.274s] running install_lib
+[1.274s] creating /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+[1.274s] copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/astar_planner_node.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+[1.274s] copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/__init__.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+[1.275s] byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/astar_planner_node.py to astar_planner_node.cpython-310.pyc
+[1.276s] byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__init__.py to __init__.cpython-310.pyc
+[1.276s] running install_data
+[1.276s] copying resource/astar_planner -> /home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/packages
+[1.277s] copying package.xml -> /home/ana/sim_ws/install/astar_planner/share/astar_planner
+[1.277s] running install_egg_info
+[1.280s] Copying ../../build/astar_planner/astar_planner.egg-info to /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info
+[1.282s] running install_scripts
+[1.313s] Installing astar_planner_node script to /home/ana/sim_ws/install/astar_planner/lib/astar_planner
+[1.314s] writing list of installed files to '/home/ana/sim_ws/build/astar_planner/install.log'
+[1.344s] Invoked command in '/home/ana/sim_ws/src/astar_planner' returned '0': PYTHONPATH=/home/ana/sim_ws/build/astar_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/astar_planner build --build-base /home/ana/sim_ws/build/astar_planner/build install --record /home/ana/sim_ws/build/astar_planner/install.log --single-version-externally-managed install_data

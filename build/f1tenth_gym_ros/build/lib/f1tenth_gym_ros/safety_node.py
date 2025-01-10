@@ -17,13 +17,13 @@ class SafetyNode (Node):
         # Publicar en /dcmd (AckermannDriveStamped)
         self.cmd_vel_pub = self.create_publisher(Twist, '/cmd_vel', 10)
 
-        # Dimensiones del robot - Largo y ancho en metros
+        # Dimensiones del robot - Largo y ancho en metros. Medida desde RViz :)
         self.robot_length = 0.5
         self.robot_width = 0.3 
 
-        # Ubicacion del sensor con respecto al robot
-        self.sensor_offset_x1 = 0.23
-        self.sensor_offset_x2 = 0.27
+        # Ubicacion del sensor con respecto al robot, medido desde RViz
+        self.sensor_offset_x1 = 0.20
+        self.sensor_offset_x2 = 0.30
         self.sensor_offset_y1 = 0.15
         self.sensor_offset_y2 = 0.15
 

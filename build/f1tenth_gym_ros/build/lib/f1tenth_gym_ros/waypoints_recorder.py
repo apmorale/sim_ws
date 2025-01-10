@@ -2,8 +2,8 @@ import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
 import numpy as np
-
-
+# Seguir testeando el distance threshold, mas info de ser necesario? Se a probado con 0.3 
+# Se recopila informacion de la posicion del robot en el mapa. Se guarda informacion en un archivo .csv en los ejes x y 
 class WaypointsRecorder(Node):
     def __init__(self):
         super().__init__('waypoints_recorder')

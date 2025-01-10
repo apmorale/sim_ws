@@ -1,0 +1,16 @@
+/home/ana/sim_ws/install/astar_planner/lib/astar_planner/astar_planner_node.py
+/home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/package_run_dependencies/astar_planner
+/home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/parent_prefix_path/astar_planner
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/ament_prefix_path.sh
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/ament_prefix_path.dsv
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/path.sh
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/environment/path.dsv
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.bash
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.sh
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.zsh
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/local_setup.dsv
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/package.dsv
+/home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/packages/astar_planner
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/cmake/astar_plannerConfig.cmake
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/cmake/astar_plannerConfig-version.cmake
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/package.xml
