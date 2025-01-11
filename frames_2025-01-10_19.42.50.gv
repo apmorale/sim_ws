@@ -1,0 +1,15 @@
+digraph G {
+"ego_racecar/base_link" -> "ego_racecar/back_left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"map" -> "ego_racecar/base_link"[label=" Broadcaster: default_authority\nAverage rate: 206.465\nBuffer length: 2.388\nMost recent transform: 1736556170.201062\nOldest transform: 1736556167.813249\n"];
+"ego_racecar/base_link" -> "ego_racecar/back_right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ego_racecar/base_link" -> "ego_racecar/front_left_hinge"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ego_racecar/base_link" -> "ego_racecar/front_right_hinge"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ego_racecar/base_link" -> "ego_racecar/laser_model"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"ego_racecar/base_link" -> "ego_racecar/laser"[label=" Broadcaster: default_authority\nAverage rate: 206.465\nBuffer length: 2.388\nMost recent transform: 1736556170.201062\nOldest transform: 1736556167.813249\n"];
+"ego_racecar/front_left_hinge" -> "ego_racecar/front_left_wheel"[label=" Broadcaster: default_authority\nAverage rate: 206.465\nBuffer length: 2.388\nMost recent transform: 1736556170.201062\nOldest transform: 1736556167.813249\n"];
+"ego_racecar/front_right_hinge" -> "ego_racecar/front_right_wheel"[label=" Broadcaster: default_authority\nAverage rate: 206.345\nBuffer length: 2.384\nMost recent transform: 1736556170.197603\nOldest transform: 1736556167.813249\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1736556170.2195454"[ shape=plaintext ] ;
+}->"map";
+}

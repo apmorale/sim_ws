@@ -1,3 +1,6 @@
 [console_scripts]
 gym_bridge = f1tenth_gym_ros.gym_bridge:main
+pure_pursuit = f1tenth_gym_ros.pure_pursuit:main
+safety_node = f1tenth_gym_ros.safety_node:main
+waypoints_recorder = f1tenth_gym_ros.waypoints_recorder:main
 

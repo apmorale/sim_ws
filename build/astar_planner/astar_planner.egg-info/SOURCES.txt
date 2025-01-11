@@ -9,7 +9,11 @@ setup.py
 ../../build/astar_planner/astar_planner.egg-info/top_level.txt
 ../../build/astar_planner/astar_planner.egg-info/zip-safe
 astar_planner/__init__.py
+astar_planner/astar.py
 astar_planner/astar_planner_node.py
+astar_planner/controller.py
+astar_planner/planner.py
+launch/bringup.launch.py
 resource/astar_planner
 test/test_copyright.py
 test/test_flake8.py

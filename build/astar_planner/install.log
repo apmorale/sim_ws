@@ -1,9 +1,16 @@
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/astar.py
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/controller.py
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/astar_planner_node.py
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__init__.py
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/planner.py
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__pycache__/astar.cpython-310.pyc
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__pycache__/controller.cpython-310.pyc
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__pycache__/astar_planner_node.cpython-310.pyc
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__pycache__/__init__.cpython-310.pyc
+/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/__pycache__/planner.cpython-310.pyc
 /home/ana/sim_ws/install/astar_planner/share/ament_index/resource_index/packages/astar_planner
 /home/ana/sim_ws/install/astar_planner/share/astar_planner/package.xml
+/home/ana/sim_ws/install/astar_planner/share/astar_planner/launch/bringup.launch.py
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info/PKG-INFO
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info/zip-safe
@@ -12,3 +19,5 @@
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ana/sim_ws/install/astar_planner/lib/astar_planner/astar_planner_node
+/home/ana/sim_ws/install/astar_planner/lib/astar_planner/controller
+/home/ana/sim_ws/install/astar_planner/lib/astar_planner/planner

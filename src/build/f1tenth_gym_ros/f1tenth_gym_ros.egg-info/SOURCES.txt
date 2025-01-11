@@ -13,6 +13,9 @@ setup.py
 config/sim.yaml
 f1tenth_gym_ros/__init__.py
 f1tenth_gym_ros/gym_bridge.py
+f1tenth_gym_ros/pure_pursuit.py
+f1tenth_gym_ros/safety_node.py
+f1tenth_gym_ros/waypoints_recorder.py
 launch/ego_racecar.xacro
 launch/gym_bridge.rviz
 launch/gym_bridge_launch.py

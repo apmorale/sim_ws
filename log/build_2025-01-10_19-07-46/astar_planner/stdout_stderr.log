@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/astar_planner/astar_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/astar_planner/astar_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/astar_planner/astar_planner.egg-info/entry_points.txt
+writing requirements to ../../build/astar_planner/astar_planner.egg-info/requires.txt
+writing top-level names to ../../build/astar_planner/astar_planner.egg-info/top_level.txt
+reading manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/astar_planner/astar_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+copying astar_planner/astar.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+copying astar_planner/controller.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+copying astar_planner/astar_planner_node.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+copying astar_planner/planner.py -> /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner
+running install
+running install_lib
+copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/astar.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/controller.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/astar_planner_node.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+copying /home/ana/sim_ws/build/astar_planner/build/lib/astar_planner/planner.py -> /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner
+byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/astar.py to astar.cpython-310.pyc
+byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/controller.py to controller.cpython-310.pyc
+byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/astar_planner_node.py to astar_planner_node.cpython-310.pyc
+byte-compiling /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner/planner.py to planner.cpython-310.pyc
+running install_data
+creating /home/ana/sim_ws/install/astar_planner/share/astar_planner/launch
+copying launch/bringup.launch.py -> /home/ana/sim_ws/install/astar_planner/share/astar_planner/launch
+running install_egg_info
+removing '/home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/astar_planner/astar_planner.egg-info to /home/ana/sim_ws/install/astar_planner/lib/python3.10/site-packages/astar_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing astar_planner_node script to /home/ana/sim_ws/install/astar_planner/lib/astar_planner
+Installing controller script to /home/ana/sim_ws/install/astar_planner/lib/astar_planner
+Installing planner script to /home/ana/sim_ws/install/astar_planner/lib/astar_planner
+writing list of installed files to '/home/ana/sim_ws/build/astar_planner/install.log'
