@@ -26,8 +26,9 @@ class AStarPlanner(Node):
 
     def map_callback(self, msg):
         self.map_data = msg
-        self.grid = np.array(msg.data).reshape((msg.info.height, msg.info.width))
-        self.get_logger().info("Mapa recibido.")
+        raw_grid = np.array(msg.data).reshape((msg.info.height, msg.info.width)) #Convertir los datos del mapa a una matriz 2D
+        self.grid = np.where(raw_grid >= 65, 1, 0) #Acorde al archivo levine.yaml 65 es el umbral para ocupado
+        self.get_logger().info("Mapa recibido y procesado :)")
 
         # Inicializar A* solo cuando el mapa está disponible
         if self.grid is not None:
@@ -37,6 +38,10 @@ class AStarPlanner(Node):
             self.get_logger().warn("Grid no recibido correctamente.")
         
     def goal_callback(self, msg):
+        if self.map_data is None:
+            self.get_logger().warning("Mapa aun no recibido. Esperando mapa.")
+            return
+        
         self.goal_pose = (msg.pose.position.x, msg.pose.position.y)
         self.get_logger().info(f"Objetivo recibido: {self.goal_pose}")
         self.plan_path()
@@ -46,13 +51,13 @@ class AStarPlanner(Node):
             self.get_logger().warning("No se puede planificar: falta mapa, objetivo o AStar.")
             return
         
-        # Convertir el mapa a numpy
+        # Datos del mapa
         width = self.map_data.info.width
         height = self.map_data.info.height
         resolution = self.map_data.info.resolution
         origin = self.map_data.info.origin.position
         
-        map_array = np.array(self.map_data.data, dtype=np.int8).reshape((height, width))
+        # map_array = np.array(self.map_data.data, dtype=np.int8).reshape((height, width))
         
         # Convertir posiciones reales a índices del mapa
         start_idx = (
@@ -65,6 +70,7 @@ class AStarPlanner(Node):
         )
         
         # Ejecutar A*
+        self.get_logger().info(f"Calculando camino de {start_idx} a {goal_idx}...")
         path = self.astar.astar(start_idx, goal_idx, treshold=50)  # Ajusta el umbral según tu mapa
         
         if path is None:

@@ -22,8 +22,8 @@ class AStar:
         """
         Calcula la heurística (distancia Manhattan o Euclidiana).
         """
-        #return abs(a[0] - b[0]) + abs(a[1] - b[1])  # Manhattan
-        return np.sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)  # Euclidiana
+        return abs(a[0] - b[0]) + abs(a[1] - b[1])  # Manhattan
+        #return np.sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)  # Euclidiana
 
     def astar(self, start, goal, treshold=50):
         """

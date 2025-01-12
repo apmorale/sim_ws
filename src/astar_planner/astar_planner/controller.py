@@ -13,13 +13,13 @@ class Controller(Node):
         self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         
         # Suscripción al topic /odom para obtener la posición del robot
-        self.odom_subscription = self.create_subscription(Odometry,'/odom',self.odom_callback,10)
+        self.odom_subscription = self.create_subscription(Odometry,'/ego_racecar/odom',self.odom_callback,10)
         
         # Pose inicial del robot (x, y, yaw)
         self.robot_pose = None  # Se actualizará en el callback de odometría
 
         # Parámetros de control
-        self.linear_speed = 0.5  # Velocidad lineal fija
+        self.linear_speed = 1.5  # Velocidad lineal fija
         self.angular_speed = 1.0  # Velocidad angular fija
 
         # Tolerancias para considerar que el objetivo se ha alcanzado
@@ -77,11 +77,15 @@ class Controller(Node):
 
         # Crear mensaje Twist para el control
         twist = Twist()
+        linear_kp = 0.8
+        angular_kp = 1.5
 
         if distance > self.goal_tolerance:
-            # Control lineal y angular
-            twist.linear.x = self.linear_speed * min(1.0, distance)
-            twist.angular.z = self.angular_speed * angle_error
+            if distance < 0.5:
+                angular_kp = 0.5
+
+            twist.linear.x = linear_kp * distance
+            twist.angular.z = angular_kp * angle_error
         else:
             self.get_logger().info('Goal reached!')
             twist.linear.x = 0.0
@@ -109,8 +113,8 @@ def main(args=None):
     controller = Controller()
 
     # Aquí puedes definir el objetivo a alcanzar
-    goal_x = 5.0  # Ejemplo: coordenada x del objetivo
-    goal_y = 0.0  # Ejemplo: coordenada y del objetivo
+    goal_x = 9.0  # Ejemplo: coordenada x del objetivo
+    goal_y = 9.0  # Ejemplo: coordenada y del objetivo
 
     try:
         rclpy.spin_once(controller)  # Procesar mensajes iniciales

@@ -13,7 +13,7 @@ class Controller(Node):
         self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         
         # Suscripción al topic /odom para obtener la posición del robot
-        self.odom_subscription = self.create_subscription(Odometry,'/odom',self.odom_callback,10)
+        self.odom_subscription = self.create_subscription(Odometry,'/ego_racecar/odom',self.odom_callback,10)
         
         # Pose inicial del robot (x, y, yaw)
         self.robot_pose = None  # Se actualizará en el callback de odometría
@@ -109,8 +109,8 @@ def main(args=None):
     controller = Controller()
 
     # Aquí puedes definir el objetivo a alcanzar
-    goal_x = 5.0  # Ejemplo: coordenada x del objetivo
-    goal_y = 0.0  # Ejemplo: coordenada y del objetivo
+    goal_x = 9.0  # Ejemplo: coordenada x del objetivo
+    goal_y = 9.0  # Ejemplo: coordenada y del objetivo
 
     try:
         rclpy.spin_once(controller)  # Procesar mensajes iniciales
